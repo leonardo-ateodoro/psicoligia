@@ -94,3 +94,47 @@
     color: var(--color-neutral-900);
 }
 
+.navbar__crp {
+    font-size: 0.75rem;
+    color: var(--color-neutral-600);
+    display:block;
+    font-weight: 400;
+}
+
+.navbar__menu {
+    display:flex ;
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+    flex-wrap: nowrap;
+}
+
+.navbar__link {
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var(--color-neutral-600);
+    padding: 0.5rem 0.65rem;
+    border-radius: var(--border-radius-sm);
+    transition: var(--transition-base);
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.navbar__link:hover {
+    color: var(--color-primary-800);
+    background-color: var(--color-primary-100);
+}
+
+.navbar__auth{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 0.5rem;
+    flex-shrink: 0;
+}
+
+.navbar__toggle{
+    display: none;
+    font-size: 1.5rem;
+    color: var(--color-neutral-800);
+}
