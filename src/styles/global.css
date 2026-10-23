@@ -1,47 +1,47 @@
+/* @import url(./design-system.css); */
 @import url(./design-system-gray.css);
 @import url(./reset.css);
 @import url(./components.css);
 
 .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 var(--space-sm);
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-sm);
 }
 
 .section {
-    padding: var(--space-xl)0;
+  padding: var(--space-xl) 0;
 }
 
 .section--alt {
-    background-color: var(--color-primary-50);
+  background-color: var(--color-primary-50);
 }
 
 .section-header {
-    text-align: center;
-    max-width: 720px;
-    margin: 0 auto var(--space-xl);
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto var(--space-xl);
 }
 
 .section-header--left {
-    text-align: left;
-    margin-bottom: var(--space-sm);
+  text-align: left;
+  margin-bottom: var(--space-sm);
 }
 
-.section-header__subtitle{
-    font-size: 0.875rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--color-primary-600);
-    margin-bottom: var(--space-xs);
-    display: block;
+.section-header__subtitle {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-primary-600);
+  margin-bottom: var(--space-xs);
+  display: block;
 }
 
 .section-header__title {
-    font-family: var(--font-heading);
-    font-size: 2.25rem;
-    color: var(--color-neutral-900);
-    line-height: 1.25;
+  font-family: var(--font-heading);
+  font-size: 2.25rem;
+  color: var(--color-neutral-900);
+  line-height: 1.25;
 }
-
