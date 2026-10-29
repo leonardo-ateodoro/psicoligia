@@ -400,7 +400,7 @@
 
 .modalities__grid {
     display: grid;
-    grid-template-rows: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr; 
     gap: var(--space-lg);
 }
 
@@ -510,3 +510,4 @@
     font-size: 0.9rem;
     color: var(--color-neutral-600);
 }
+
