@@ -481,3 +481,32 @@
 .modality-card__feature-item i {
     color: var(--color-primary-600);
 }
+
+
+
+.process__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-md);
+}
+
+.step-card__number {
+ font-family: var(--font-heading);
+ font-size: 2.5rem;   
+ font-weight: 700;
+ color: var(--color-primary-200);
+ line-height: 1;
+ margin-bottom: var(--space-xs); 
+}
+
+.step-card__title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: var(--space-xs);
+    color: var(--color-neutral-900);
+}
+
+.step-card__text {
+    font-size: 0.9rem;
+    color: var(--color-neutral-600);
+}
