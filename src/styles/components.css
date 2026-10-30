@@ -573,3 +573,44 @@
     box-shadow: var(--border-shadow-soft);
     border: 1px solid var(--color-neutral-200);
 }
+.contact__info-title {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    margin-bottom: var(--space-sm);
+
+}
+
+.contact__description {
+    color: var(--color-neutral-600);
+    margin-bottom: 1.5rem;
+
+    
+}
+.contact__details {
+    list-style: none;
+    margin: var(--space-md);     
+}
+
+.contact__item-icon {
+    width: 40px ;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--color-primary-50);
+    color: var(--color-primary-600);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.contact__item{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.contact__item-TEXT {
+    font-size: 0.9rem;
+    color: var(--color-neutral-600);
+}
