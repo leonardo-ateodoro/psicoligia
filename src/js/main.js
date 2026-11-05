@@ -29,4 +29,13 @@ function initNavbar() {
         menuIcon.className = isOpen ? "fa-solid fa-xmark" :  'fa-solid fa-bars';
 });
 
-s
+document.querySelectorAll('.navbar__link').forEach (link =>{ 
+    link.addEventListener('click', () => {
+    navMenu.classList.remove ('navbar__menu--open');
+    menuIcon.className = 'fa-solid fa-bars';
+});
+});
+}
+
+
+function in
