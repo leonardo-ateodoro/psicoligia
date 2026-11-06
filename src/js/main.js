@@ -76,7 +76,8 @@ function initServiceButtons() {
             Swal.fire({
                 title: serviceTitle,
                 html: `<p style= "text-align: justify; font-size: 0.95rem; line-height: 1.6; color: #57534e; margin-bottom: 1.25rem;"> ${descricao}</p><strong>Deseja agendar uma avaliação para esta área?</strong>`,
-                icon
+                icon:'info',
+                
 
             })
             
