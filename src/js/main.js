@@ -69,6 +69,16 @@ const detalhesServicos = {
 
 function initServiceButtons() {
     document.querySelectorAll ('.card-service__action').forEach(btn => {
-        const serviceTitle = btn.dataset
+        btn.addEventListener ('click', () => {
+            const serviceTitle = btn.dataset.service;
+            const descricao = detalhesServicos[serviceTitle] || 'Acompanhamento psicológico personalizado.';
+           
+            Swal.fire({
+                title: serviceTitle,
+                html: `<p style= "text-align: justify; font-size: 0.95rem; line-height: 1.6; color: #57534e; margin-bottom: 1.25rem;"> ${descricao}</p><strong>Deseja agendar uma avaliação para esta área?</strong>`,
+                icon
+
+            })
+            
     )
 }
