@@ -14,13 +14,13 @@
 
 .btn--primary {
   background-color: var(--color-primary-600);
-  color: #ffffff;
-  box-shadow: 0 4px 14px var(--box-shadow-btn-color);
+  color: var(--color-neutral-100);
+  box-shadow: 0 4px 14px var(--box-shadow-hover);
 }
 
 
 .btn--primary:hover {
-  background-color: var(--color-primary-700);
+  background-color: var(--color-primary-900);
   transform: translateY(-2px);
   box-shadow: 0 6px 20px var(--box-shadow-btn-color);
 }
@@ -28,27 +28,27 @@
 
 .btn--secondary {
   background-color: transparent;
-  color: var(--color-primary-700);
+  color: var(--color-neutral-50);
   border: 2px solid var(--color-primary-600);
 }
 
 
 .btn--secondary:hover {
-  background-color: var(--color-primary-100);
+  background-color: var(--color-primary-900);
   transform: translateY(-2px);
 }
 
 
 .btn--outline-neutral {
   background-color: transparent;
-  color: var(--color-neutral-800);
-  border: 1px solid var(--color-neutral-200);
+  color: var(--color-primary-100);
+  border: 1px solid var(--color-primary-600);
 }
 
 
 .btn--outline-neutral:hover {
   border-color: var(--color-primary-600);
-  color: var(--color-primary-700);
+  color: var(--color-primary-100);
 }
 
 
