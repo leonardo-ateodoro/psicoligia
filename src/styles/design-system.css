@@ -9,21 +9,21 @@
   --color-primary-900:#2f4f3f;
 
 
-  --color-accent-100: #faf0dc ;
+  --color-accent-100: #f2f5f2 ;
   --color-accent-500: #c9a27e;
 
 
-  --color-neutral-50: ;
-  --color-neutral-100: ;
-  --color-neutral-200: ;
-  --color-neutral-600: ;
-  --color-neutral-800: ;
-  --color-neutral-900: ;
+  --color-neutral-50:#f2f5f2;
+  --color-neutral-100: #efece3;
+  --color-neutral-200: #d3d3d3;
+  --color-neutral-600:#7c8c7f ;
+  --color-neutral-800: #2b3024;
+  --color-neutral-900: #000000;
 
 
   /* Tipografia */
   --font-heading: 'Playfair Display', Georgia, serif;
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Segoe UI', system-ui, -apple-system, sans-serif;;
 
 
   /* Espaçamentos */
@@ -42,5 +42,5 @@
   --box-shadow-soft: 0 10px 30px -5px rgba(0, 0, 0, 0.05);
   --box-shadow-hover: 0 20px 40px -10px rgba(13, 148, 136, 0.15);
   --transition-base: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  --box-shadow-btn-color: rgba(13, 148, 136, 0.45);
+  --box-shadow-btn-color: rgba(214, 215, 211, 0.45);
 }
