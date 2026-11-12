@@ -1,0 +1,46 @@
+:root {
+  /* Cores - Primárias & Neutras */
+  --color-primary-50: #f2f5f2;
+  --color-primary-100: #d8e0db ;
+  --color-primary-200:#c9a27e;
+  --color-primary-600:#af9c74;
+  --color-primary-700: #3d4a42 ;
+  --color-primary-800: #2f5043 ;
+  --color-primary-900:#2f4f3f;
+
+
+  --color-accent-100: #faf0dc ;
+  --color-accent-500: #c9a27e;
+
+
+  --color-neutral-50: ;
+  --color-neutral-100: ;
+  --color-neutral-200: ;
+  --color-neutral-600: ;
+  --color-neutral-800: ;
+  --color-neutral-900: ;
+
+
+  /* Tipografia */
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+
+  /* Espaçamentos */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+
+
+  /* Design Tokens UI */
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  --border-radius-lg: 24px;
+  --border-radius-full: 9999px;
+  --box-shadow-soft: 0 10px 30px -5px rgba(0, 0, 0, 0.05);
+  --box-shadow-hover: 0 20px 40px -10px rgba(13, 148, 136, 0.15);
+  --transition-base: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --box-shadow-btn-color: rgba(13, 148, 136, 0.45);
+}
